@@ -22,7 +22,7 @@ public class Cajero implements Transferencias {
 
     public void imprimirTicket() {
         Movimiento ultimoMovimiento = this.movimientos.get(this.movimientos.size() - 1);
-        System.out.println("\n|         TICKET          |" +
+        System.out.println("\n|         TICKET Numero     1000     |" +
         "\n|    Banco: " + this.banco.getNombre() +
         "\n|    Localizacion: " + this.localizacion
        );
